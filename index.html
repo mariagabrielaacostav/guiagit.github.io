@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Manual de Git</title>
+  </head>
+  <body>
+
+
+      
+   
+   
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navcolortext">
+  <a class="navbar-brand" href="#">GIT</a>
+</nav>   
+   
+  
+    
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4 titulobaner">Curso de Git</h1>
+    <p class="lead"></p>
+  </div>
+</div>    
+    
+
+<div class="container">
+    <br><br>
+
+    <h4>GIT: Comandos para iniciar proyecto</h4>
+
+
+    <!-- Acordion -->
+    <section class="nueva">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link titulo_acordion" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Configuración Inicial
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ol type=”1” start=”5” class="">
+                            <li> Abrir la app de git</li>
+                            <li> Para configurar el nombre escribir: <strong>git config --global user.name "Gaby" </strong></li>
+                            <li> Para configurar el correo escribir: <strong>git config --global user.email "maria.gabriela.acosta.v@gmail.com"</strong></li>
+                            <li> Para configurar los colores de git escribir: <strong>git config --global color.ui true </strong></li>
+                            <li> Para ver el listado de nuestra configuracion: <strong>git config --global --list</strong></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed titulo_acordion" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Nota 2 - Salir
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Para salir de alguna ventana ponemos la letra q
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed titulo_acordion" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Nota 3 -Help
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Se puede escribir git help o tambien git help nombre-comando para ayuda
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+  
+  
+ <!-- Cajitas -->
+    <section class="nueva">
+
+        <div class="comandos">
+        
+           <h4 class="titulo_blanco">GIT: Comandos de gestión de proyecto</h4>
+
+        
+         <div class="row">
+          <div class="col">
+              <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git init</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Iniciar Proyecto</h6>
+                <p class="card-text">Siempre que iniciemos un proyecto en git debemos navegar por consola hasta el directorio del proyecto y escribir el comando</p>
+                         
+                </div>
+            </div>
+          </div>
+          <div class="col">
+             <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git status</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Verificar Cambios</h6>
+                <p class="card-text">Para verificar si se han hecho cambios en alguno de los archivos. Si algun archivo sale en rojo tiene cambios listos para guardar</p>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git add -A</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Agregar cambios</h6>
+                <p class="card-text">Cada vez que desees almacenar los cambios en git este sera el comando que debes escribir</p>
+                </div>
+            </div>
+         </div>
+          </div>
+          
+          
+          <div class="row">
+          <div class="col ancho-cajitas">
+              <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git coomit -m</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Nombrar cambios</h6>
+                <p class="card-text">git commit -m "Agregue el cuadro de instrucciones" sirve para ir dejando banderas tipo checkpoint de juegos</p>
+                         
+                </div>
+            </div>
+          </div>
+          <div class="col ancho-cajitas">
+             <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git log</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Verificar todos los commits</h6>
+                <p class="card-text">sirve para revisar el listado de todos los commit de la rama
+                para generar un archivo con todos escribes git log > commit.txt </p>
+                </div>
+            </div>
+          </div>
+          <div class="col ancho-cajitas">
+            <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git checkout id-commit</h5>
+                <h6 class="card-subtitle mb-2 text-muted">viajar en el tiempo</h6>
+                <p class="card-text">Sirve para cambiarnos de rama o de commit. Nota: para regresar al commit más reciente escribimos git commit master</p>
+                </div>
+            </div>
+         </div>
+          </div>
+          
+          <div class="container">
+          <strong>Nota: para cambiar el nombre de un commit se usa git commit --amend -m “nombre_commit” Solo sirve cuando el commit es reciente.</strong>
+          <br>
+          </div>
+        </div>
+    </section>
+    
+    
+    
+     <!-- Cajitas  primeros comandos-->
+    <section>
+
+        <div class="comandos-eliminar margen">
+            <div class="jumbotron2 jumbotron-fluid">
+                    <h1 class="display-4 titulo_blanco"> Eliminar los Commit</h1>
+                    <br>
+                    
+                    <ul class="lista-fondo-oscuro">
+                        <li>
+                            git reset --soft: elimina los commit pero no toca el código.
+                        </li>
+                        <li>
+                            git reset --mixed: no recomendable
+                        </li>
+                        <li>
+                            git reset --hard: borra codigo y todo, no deja rastro de nada
+                        </li>
+                    </ul>
+                    <br>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Cajitas Branch -->
+    <section class="nueva">
+
+        <div class=".comandos-branch">
+        
+           <h4>Branch o Ramas</h4>
+
+        
+         <div class="row">
+          <div class="col">
+              <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git branch</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Ramas</h6>
+                <p class="card-text">Para ver las ramas que tenemos en el proyecto</p>
+                         
+                </div>
+            </div>
+          </div>
+          <div class="col">
+             <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git branch nombre-rama</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Creación</h6>
+                <p class="card-text">Para crear una nueva rama en nuestro proyecto</p>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git checkout nombre-rama</h5>
+                <h6 class="card-subtitle mb-2 text-muted">checkout</h6>
+                <p class="card-text">Para movernos entre ramas</p><br>
+                <strong>nota: </strong>para crear la rama y movernos de inmediato a ella escribimos:
+	            git checkout -b nombre-rama
+                </div>
+            </div>
+         </div>
+          </div>
+          
+          
+          <div class="row">
+          <div class="col">
+              <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git branch -D nombre_rama</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Eliminar</h6>
+                <p class="card-text">Para eliminar una rama</p>
+                         
+                </div>
+            </div>
+          </div>
+          <div class="col">
+             <div class="card cajitas card-tarjetas" style="width: 24rem;">
+                <div class="card-body">
+                <h5 class="card-title">git merge nombre-rama-hija</h5>
+                <h6 class="card-subtitle mb-2 text-muted">fusiones</h6>
+                <p class="card-text">Sirve para fusionar las ramas a la rama master y tener todo en una sola rama. Es importante primero cambiarse a la rama master</p>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cajitas card-tarjetas borde-blanco" style="width: 18rem;">
+                <div class="card-body">
+                <p class="card-text"></p>
+                </div>
+            </div>
+         </div>
+          </div>
+          
+        </div>
+    </section>
+    
+    <!-- Fusiones -->
+
+    <section>
+        <div class="comandos-fusion margen">
+            <div class="jumbotron2 jumbotron-fluid">
+                <h1 class="display-4 titulo_blanco"> Fusiones</h1>
+               
+
+                <ul class="lista-fondo-oscuro">
+                        <h3>Se utilizan para unir las ramas a la master y tener todo en una sola rama.</h3>
+	                <li>
+                        git checkout master
+                    </li>
+                    <li>
+                        git merge nombre-rama-hija
+                    </li>
+                </ul>
+                <br>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Github -->
+    <section>
+        <div class="caja_gris">
+            <h4 class="alert-heading">Github</h4>
+            <p>Para poder sincronizar el repositorio local con el remoto usamos github</p>
+            <ol type=”1” start=”6” class="">
+                <li>Para crear una copia de un proyecto online en nuestro local:
+                <strong>git clone url_dado_git</strong></li>
+                <li>Para vincular (conectar) nuestro proyecto local con el proyecto remoto escribimos: 
+                <strong>git remote add origin url_nuestro_repo</strong></li>
+                <li>Para comprobar si se vinculo el repositorio local con el remoto: 
+                <strong>git remote -v</strong></li>
+                <li>Para desvincular git hub de nuestro local escribimos:
+                <strong>git remote remove</strong></li>
+                <li>Para enviar nuestros cambios (commits) a github escribimos:
+                <strong>git push origin nombre_rama</strong> ó
+                <strong>git push -u origin master</strong></li>
+                <li>Para subir cambios del local a github (despues de almacenar en el local): 
+                <strong>git push origin master</strong></li>
+                <li>Para subir cambios de otra rama en el local al remoto: <strong>git push origin nombre-rama</strong></li>
+                <li>Para subir cambios forzados como un git commit amend escribo: <strong> 
+	git push origin nombre-rama -f	</strong></li>
+            </ol>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    <hr>
+    <foot class="footer">
+       <p>Gaby 2019</p>
+    </foot>
+    
+    
+    
+    
+    
+    
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

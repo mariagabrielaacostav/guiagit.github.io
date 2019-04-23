@@ -1,0 +1,113 @@
+.body{
+    background-color: white;
+    overflow-x:hidden;
+}
+
+
+.navcolortext{
+    color:white;
+}
+
+.jumbotron{
+    background-image:url(../img/image.png);
+    background-size:auto;        
+}
+
+h4{
+    text-align: center;
+    color: chocolate;
+}
+
+
+.comandos{
+    background-color:chocolate;
+    min-height: 100%; 
+}
+
+.comandos-eliminar{
+    background-color:black;
+    min-height: 100%; 
+}
+
+
+.comandos-branch{
+    background-color:white
+}
+
+.comandos-fusion{
+    background-color: brown;
+}
+
+.nueva{
+    padding-top: 2%;
+}
+
+.titulobaner{
+    color:black;
+    font-family:sans-serif;
+    font-variant-caps:small-caps;
+    text-shadow: 2px 4px white;
+}
+
+.text-list{
+    line-height: 2.5em;;    
+}
+
+.titulo_acordion {
+    color:darkorange;
+    
+}
+
+.titulo_acordion:hover{
+    color:chocolate;
+}
+
+.cajitas{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%
+}
+
+.card-tarjetas {
+    min-height: 200px;
+    max-height: 500px;
+}
+
+.titulo_blanco{
+    color:white;
+}
+
+.lista-fondo-oscuro{
+    color: white;
+}
+
+.margen{
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+.borde-blanco{
+    border-color: white;
+}
+
+.footer p{
+    text-align: center;
+ }
+
+.caja_gris{
+    background-color:antiquewhite;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    line-height: 2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
